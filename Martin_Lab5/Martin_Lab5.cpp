@@ -40,7 +40,7 @@ int main() {
     }
 
     // write out message
-    cout << "Encoded Message: " << encoded << endl;
+    cout << "Encoded Message: " "\"" << encoded << "\"" << endl;
 
     return 0;
 }
